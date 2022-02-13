@@ -43,7 +43,6 @@ class Queue:
     def checkHead(self):
         return self.__data[0]
     
-    
     """
         In theory, we should not be able to access entire Queue without 
         tracing the entire Queue forward, similar to Stack. However, I am
